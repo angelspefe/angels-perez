@@ -1,0 +1,60 @@
+/*----------- CSS RESET -----------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  max-width:100%;
+}
+
+/*----------- UNIVERSAL STYLES -----------*/
+/* Eg padding on your sections, utility classes, etc. */
+
+body {
+  text-align:center;
+  padding:10%;
+  margin-top:auto;
+  margin-bottom:auto;
+  height:100vh;
+}
+
+
+
+/*----------- TYPOGRAPHY -----------*/
+
+
+h1 {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 3em;
+  line-height: 1.3em;
+  padding-bottom:10%;
+  color: #b1b1b1;
+}
+
+
+a {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:0.8rem;
+  letter-spacing: 1px;
+
+}
+
+
+
+/*----------- BUTTON -----------*/
+
+
+.button {
+  background-color: #b1b1b1;
+  border: none;
+  color: #fff;
+  padding:1rem 2.5rem 1rem 2.5rem
+  transition:1s;
+  border-radius: 25px;
+}
+
+.button:hover {
+  background-color: #fff;
+}
